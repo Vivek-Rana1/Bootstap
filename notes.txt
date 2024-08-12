@@ -1,0 +1,7 @@
+<!-- this is some basic use case of the a href
+
+<a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>
+
+<a href="callto:1234567">Call 123-4567</a>
+
+<a href="mailto:example@somewhere.com">Send email to example@somewhere.com</a> -->

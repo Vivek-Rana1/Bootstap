@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+<title>Title</title>
+</head>
+<body>
+
+  
+<!-- the NavBar -->
+<div class="container">
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+</div>
+
+
+<!-- this is the grid layout -->
+<div class="container">
+    <div class="row pt-3 m-0 ">
+        <div class=" g-1 col-sm-7  col-lg-12  col bg-primary py-3">one</div>
+        <div class="col-sm-4 col bg-secondary p-3">two</div>
+        <div class="col-sm-8  col bg-info  p-3">three</div>
+        <div class="col-sm-12 col bg-success p-3">four </div>
+    </div>
+</div>
+
+
+<!-- this is the section of the table -->
+
+<section>
+    <div class="container">
+
+    <div class="table-responsive pt-2">
+
+        <table id="customers" class="table table-bordered table-hover">
+            <tr >
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Berglunds snabbköp</td>
+              <td>Christina Berglund</td>
+              <td>Sweden</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+            <tr>
+              <td>Ernst Handel</td>
+              <td>Roland Mendel</td>
+              <td>Austria</td>
+            </tr>
+         
+            <tr>
+              <td>Magazzini Alimentari Riuniti</td>
+              <td>Giovanni Rovelli</td>
+              <td>Italy</td>
+            </tr>
+         
+          </table>
+          
+
+
+    </div>
+       
+
+
+    </div>
+</section>
+
+
+<!-- this is for the card  -->
+<section>
+
+    <div class="container">
+
+      <!-- We Can use card-group if we want to add muliple cards -->
+      
+    <div class="card" style="width: 400px;">
+
+      <h2 class="card-header"> THE CAT</h2>
+      <img class="card-img-top" src="placeholder.com-1280x720.webp"></img>
+
+      <!-- card-img-overlay for txt in the img -->
+      <div class="card-body">  
+
+     <h3 class="card-title">  the card </h3>
+     <h4 class="card-subtitle"> this is the sub title</h4>
+ 
+     <p class="card-text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum natus esse quas!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum natus esse quas!
+     </p>
+     <a href="#" class="btn btn-primary">Go somewhere</a>
+
+    </div>
+
+
+    </div>
+</div>
+
+</section>
+
+
+<!-- the  MUltiple Cards -->
+
+<section>
+
+  <div class="container p-0">
+
+<ul class="card-group mt-3 flex-sm-column flex-md-row p-0">
+
+  <li class="card m-3" style="width: 400px;">
+
+    <h2 class="card-header"> THE CAT</h2>
+    <img class="card-img-top" src="placeholder.com-1280x720.webp"></img>
+    <div class="card-body">  
+
+   <h3 class="card-title">  the card </h3>
+   <h4 class="card-subtitle"> this is the sub title</h4>
+
+   <p class="card-text">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum natus esse quas!
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum natus esse quas!
+   </p>
+   <a href="#" class="btn btn-primary">Go somewhere</a>
+
+  </div>
+
+  <div class="card-footer text-uppercase text-center"> THE end</div>
+
+
+</li>
+
+
+  <li class="card m-3" style="width: 400px;">
+
+    <h2 class="card-header"> THE CAT</h2>
+    <img class="card-img-top" src="placeholder.com-1280x720.webp"></img>
+
+    <!-- card-img-overlay for txt in the img -->
+    <div class="card-body">  
+
+   <h3 class="card-title">  the card </h3>
+   <h4 class="card-subtitle"> this is the sub title</h4>
+
+   <p class="card-text">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum natus esse quas!
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum natus esse quas!
+   </p>
+   <a href="#" class="btn btn-primary">Go somewhere</a>
+
+  </div>
+
+  <div class="card-footer text-uppercase text-center"> THE end</div>
+</li>
+
+
+  <li class="card m-3" style="width: 400px;">
+
+    <h2 class="card-header "> THE CAT</h2>
+    <img class="card-img-top" src="placeholder.com-1280x720.webp"></img>
+
+    <!-- card-img-overlay for txt in the img -->
+    <div class="card-body">  
+
+   <h3 class="card-title">  the card </h3>
+   <h4 class="card-subtitle"> this is the sub title</h4>
+
+   <p class="card-text">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum natus esse quas!
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum natus esse quas!
+   </p>
+   <a href="#" class="btn btn-primary">Go somewhere</a>
+
+  </div>
+  <div class="card-footer text-uppercase text-center"> THE end</div>
+
+</li>
+
+</ul>
+
+
+</div>
+
+</div>
+
+</section>
+
+<!-- this is for the bread chrumb -->
+<section>
+
+<div class="container">
+<nav class="breadcrumb">
+<OL class="breadcrumb">
+   <li class="breadcrumb-item  text-uppercase"><a href="#" target="_blank"> about </a></li>
+   <li class="breadcrumb-item text-uppercase"><a href="#" target="_blank"> home </a></li>
+   <li class="breadcrumb-item text-uppercase"><a href="#" target="_blank"> Brand </a></li>
+</OL>
+
+</nav>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
